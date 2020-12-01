@@ -1,0 +1,21 @@
+<html>
+<head>
+<script language="JavaScript" type="text/JavaScript">
+    function optionsAlert(){
+        var e = document.getElementById("catselect");
+        var strUser = e.options[e.selectedIndex].value;
+        alert(strUser);
+        // window.location.href="http://www.mysite.com/newad.php?do=newad&cat="+strUser;
+        
+    }
+</script>
+</head>
+
+<form name="scriptform" method="post" >
+<select name="catselect" id="catselect" onchange="optionsAlert()"/>
+<option value="0">Please select a Category</option>
+<optgroup label="Cars"></optgroup>
+<option value="14" class="">BMW</option>
+<option value="23" class="">Porsche</option>
+</select>
+</html>
