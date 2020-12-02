@@ -21,4 +21,4 @@ Ajax hoạt động bất đồng bộ (asynchronously) với phần còn lại 
 Có nghĩa là code viết bởi Ajax có thể tương tác với server 
 và cập nhật nội dung tự động mà không cần phải tải lại trang.
 
-Link web Online : https://webhuongly.000webhostapp.com/
+Link web Online :http://huongly.atwebpages.com/
